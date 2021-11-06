@@ -28,7 +28,6 @@ toggle.onclick = function(){
     toggle.classList.toggle('active')
     nav.classList.toggle('active')
     main.classList.toggle('active')
-
 }
 
 
