@@ -5,9 +5,9 @@
 let list = document.querySelectorAll('.nav li');
 
 //? active toggle button & navigation & main classes 
-let toggle = document.querySelector('.toggle')
-let nav = document.querySelector('.nav')
-let main = document.querySelector('.main')
+let toggle = document.querySelector('.toggle');
+let nav = document.querySelector('.nav');
+let main = document.querySelector('.main');
 
 // ************** Codes *******************
 
@@ -15,7 +15,7 @@ function activeLinks(){
 
     list.forEach((item)=>
     item.classList.remove('hovered'));
-    this.classList.add('hovered')
+    this.classList.add('hovered');
 
 }
 
@@ -25,8 +25,8 @@ item.addEventListener('mouseover',activeLinks));
 
 toggle.onclick = function(){
 
-    toggle.classList.toggle('active')
-    nav.classList.toggle('active')
-    main.classList.toggle('active')
+    toggle.classList.toggle('active');
+    nav.classList.toggle('active');
+    main.classList.toggle('active');
 }
 
